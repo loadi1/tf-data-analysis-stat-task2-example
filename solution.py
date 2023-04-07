@@ -15,4 +15,4 @@ def solution(p: float, x: np.array) -> tuple:
     right = len(x)*loc/norm.ppf(alpha)/np.sqrt(50)
     #return loc - scale * norm.ppf(1 - alpha / 2), \
     #       loc - scale * norm.ppf(alpha / 2)
-    return right, left
+    return left, right
